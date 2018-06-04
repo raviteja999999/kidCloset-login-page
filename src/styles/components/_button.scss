@@ -1,17 +1,65 @@
-.button {
+
+.signin {
+  background: $blue;
+  display: inline-block;
+  color: white;
+  border: none;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 5rem;
+  margin:3px 40px;
+  width: 105px;
+  height: 25px;
+}
+
+.signup {
+  background: $blue;
+  display: inline-block;
+  color: white;
+  border: none;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 5rem;
+  margin:8px;
+  width: 105px;
+  height: 25px;
+}
+
+
+.signin__submit {
   background: $blue;
   border: none;
-  color: white;
   display: inline-block;
-  font-size: $font-size-large;
+  color: white;
   font-weight: 300;
   line-height: 1;
-  padding: $s-size;
-  text-decoration: none;
+  font-size: $font-size-large;
+  margin:10px;
+  height: 35px;
+  width: 230px;
+}
+
+.signup__submit {
+  background: $blue;
+  border: none;
+  display: inline-block;
+  color: white;
+  font-weight: 300;
+  line-height: 1;
+  font-size: $font-size-large;
+  margin:15px;
+  height: 35px;
+  width: 230px;
 }
 
 .button--link {
   background: none;
+  color:white;
+  line-height: 2;
+  font-size: $font-size-large;
+  font-weight: 550;
+  width: 140px;
+  height: 40px;
 }
 
 .button--secondary {

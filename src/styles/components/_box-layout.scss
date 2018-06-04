@@ -1,6 +1,6 @@
 .box-layout {
   align-items: center;
-  background: url('/images/bg.jpg');
+  background: url('/images/bg1.jpg');
   background-size: cover;
   display: flex;
   height: 100vh;
@@ -9,14 +9,25 @@
 }
 
 .box-layout__box {
-  background: fade-out(white, .15);
+  background: fade-out(white, .35);
   border-radius: 3px;
   padding: $l-size $m-size;
   text-align: center;
-  width: 25rem;
+  width: 110rem;
+  height: 60rem;
+  align-items: centre;
+  justify-content: center;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
 }
 
 .box-layout__title {
   margin: 0 0 $m-size 0;
-  line-height: 1;
+  line-height: 0.75;
+}
+
+.box-layout__tagline{
+  margin: 0 0 $m-size 0;
+  line-height: 1.5;
 }
