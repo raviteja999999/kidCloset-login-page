@@ -9,12 +9,12 @@
 }
 
 .box-layout__box {
-  background: fade-out(white, .35);
+  background: fade-out(white, .10);
   border-radius: 3px;
-  padding: $l-size $m-size;
+  padding: $l-size 12rem;//$m-size;
   text-align: center;
-  width: 110rem;
-  height: 60rem;
+  width: 85rem;
+  height: 70rem;
   align-items: centre;
   justify-content: center;
   //display: flex;
@@ -22,9 +22,16 @@
   //align-items: center;
 }
 
+.box-layout__background {
+  background:white;
+  
+
+
+}
+
 .box-layout__title {
   margin: 0 0 $m-size 0;
-  line-height: 0.75;
+  line-height: 0.3;
 }
 
 .box-layout__tagline{
